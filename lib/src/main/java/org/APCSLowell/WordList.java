@@ -11,22 +11,10 @@ public class WordList
 
   public int numWordsOfLength(int len)
   {
-    int count=0;
-    for(String word : myList){
-      if(word.length()==len){
-        count++;
-      }
-    }
-    return count;
+     //your code goes here
   }
 
   public void removeWordsOfLength(int len)
   {
-    for(int i=0; i<myList.size(); i++){
-      if(myList.get(i).length()==len){
-        myList.remove(i);
-        i--;
-      }
-    }
-  }
+    //your code goes here
 }
