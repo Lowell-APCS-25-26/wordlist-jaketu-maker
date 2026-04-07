@@ -28,7 +28,7 @@ jobs:
       with:
         test-name: partB
         setup-command: ''
-        command: gradle test --tests "partB"
+        command: gradle test --tests "*partB*"
         timeout: 10
         max-score: 1
     - name: Autograding Reporter
